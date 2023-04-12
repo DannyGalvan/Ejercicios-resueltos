@@ -1,13 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { ContactList } from "./components/containers/ContactList";
+import Clock from "./components/pure/Clock";
+import ClockFunctional from "./components/pure/ClockFunctional";
 
 function App() {
   return (
     <div className="App">
       <main className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ContactList />
+        <Clock/>
+        <ClockFunctional/>
       </main>
     </div>
   );

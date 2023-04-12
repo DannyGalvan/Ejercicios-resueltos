@@ -4,7 +4,7 @@ const initialState = {
   // Se genera una fecha como estado inicial del componente
   fecha: new Date(),
   edad: 0,
-  nombre: "Martín",
+  nombre: "Martín", 
   apellidos: "San José",
 };
 

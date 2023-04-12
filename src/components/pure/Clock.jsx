@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Clock extends Component {
   constructor(props) {
-    super(props);
+    super(props); 
     // Estado privado del component
     this.state = {
       // Se genera una fecha como estado inicial del componente
