@@ -1,15 +1,15 @@
 import logo from "./logo.svg";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap-icons/font/bootstrap-icons.css";
 import "./App.css";
-import Clock from "./components/pure/Clock";
-import ClockFunctional from "./components/pure/ClockFunctional";
+import { ContactList } from "./components/containers/ContactList";
 
 function App() {
   return (
-    <div className="App">
-      <main className="App-header">
+    <div className="container-fluid">
+      <main>
         <img src={logo} className="App-logo" alt="logo" />
-        <Clock/>
-        <ClockFunctional/>
+        <ContactList />
       </main>
     </div>
   );

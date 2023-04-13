@@ -1,8 +1,4 @@
 
-.card {
-    padding: 1rem;
-    border-radius: 25%;
-    border-width: 3px;
-    border-color: white;
-    border: inset;
-  }
+.card-action{
+  cursor: pointer;
+}
