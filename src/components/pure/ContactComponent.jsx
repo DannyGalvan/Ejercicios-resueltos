@@ -46,4 +46,6 @@ export const ContactComponent = ({ contact, connect, remove }) => {
 
 ContactComponent.propTypes = {
   contact: PropTypes.instanceOf(Contact),
+  connect: PropTypes.func.isRequired,
+  remove: PropTypes.func.isRequired,
 };
